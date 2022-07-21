@@ -14,9 +14,9 @@
  import {widthPercentageToDP as wp, heightPercentageToDP as hp} from 'react-native-responsive-screen';
  
  
- export default function Onboard  () {
+ export default function Onboard() {
   
- return (
+ return ( 
     <View style={styles.containner}> 
       <View style={styles.AreaLogo}>
        <Image source={require('../../layout/images/instagram.png')} style={styles.AreaLogoImage}/>
